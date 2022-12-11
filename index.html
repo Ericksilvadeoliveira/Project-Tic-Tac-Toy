@@ -6,12 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jogo da Velha</title>
     <link rel="stylesheet" href="ticTacToe.css">
-    <script src="ticTacToe.js"></script>
+    <script src="ticTacToe.js" defer></script>
 </head>
 <body>
     <div id="container">
         <header>Jogo da Velha #</header>
-        <div class="display">Vez do <span class="display-player">X</span>!</div>
+        <div class="display">Vez do <span class="display-player playerX">X</span>!</div>
         <main>
             <div id="gameBoard">
                     <div class="casas"></div>
@@ -23,11 +23,10 @@
                     <div class="casas"></div>
                     <div class="casas"></div>
                     <div class="casas"></div>
-
-                <div id="resultado"></div>
             </div>
+            <div id="resultado"></div>
+            <button id="reset">Reset</button>
         </main>
     </div>
-
 </body>
 </html>
